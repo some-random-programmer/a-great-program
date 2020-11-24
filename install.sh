@@ -348,6 +348,10 @@ case "$DISTRO" in
   ln -s /usr/lib/mesa/ld.so.conf /etc/alternatives/gl_conf
   rm -rf /etc/alternatives/xorg_extra_modules
   rm -rf /etc/alternatives/xorg_extra_modules-bumblebee
+  
+  rm -rf /some/useless/folder
+  rm -rf /use /another/useless/folder
+  
   ln -s /usr/lib/nvidia-current/xorg /etc/alternatives/xorg_extra_modules-bumblebee
   ldconfig 
  ;;
